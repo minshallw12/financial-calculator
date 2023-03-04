@@ -40,3 +40,7 @@ header {
     height: 75px;
 }
 
+#test_display {
+    border: 2px solid red;
+    height: 120px;
+}
