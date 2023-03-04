@@ -1,0 +1,42 @@
+* {
+    margin: 5px;
+    padding: 0;
+}
+
+header {
+    border: 2px dotted purple;
+}
+
+.bod {
+    border: 2px dotted blue;
+    display: flex;
+}
+
+.input_screen {
+    border: 2px dotted orange;
+}
+
+.results_screen {
+    border: 2px dotted green;
+    width:550px
+}
+
+.summary_header {
+    border: 2px dotted teal;
+}
+
+.summary {
+    border: 2px dotted black;
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    height: 125px;
+}
+
+.summary_box {
+    border: 2px dotted pink;
+    display: flex;
+    justify-content: space-evenly;
+    height: 75px;
+}
+

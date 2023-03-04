@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amortization Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <h1>Amortization Calculator</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis pariatur incidunt impedit cum beatae ipsum. Atque illo sequi nostrum doloribus ut dolore, iste perspiciatis reprehenderit explicabo dolores fugiat ipsa numquam.</p>
+    </header>
+    <div class="bod">
+        <div class="input_screen">
+            <div class="loan_amount">
+                <h3>Loan Amount</h3>
+                <input class="input" id="amount_input">
+            </div>
+            <div class="loan_term">
+                <h3>Loan Term</h3>
+                <input class="input" id="amount_input">
+            </div>
+            <div class="loan_rate">
+                <h3>Interest Rate</h3>
+                <input class="input" id="amount_input">
+            </div>
+            <div class="loan_start">
+                <h3>Loan Start Date</h3>
+                <input class="input" id="amount_input">
+            </div>
+        </div>
+        <div class="results_screen">
+            <div>
+                <div class="summary_header">
+                    <h3>Summary</h3>
+                    <h4>Number of Payments:</h4><div id="number_of_payments"></div>
+                </div>
+                <hr>
+                <div class="summary">
+                    <div class="summary_box">
+                        <div class="monthly_payment">
+                            <h5>Monthly Payment</h5>
+                            <div id="payment">$</div>
+                        </div>
+                        <div class="monthly_interest">
+                            <h5>Total Interest Paid</h5>
+                            <div id="interest">$</div>
+                        </div>
+                        <div class="monthly_costt">
+                            <h5>Total cost of loan</h5>
+                            <div id="cost">$</div>
+                        </div>
+                        <div class="monthly_date">
+                            <h5>Payoff date</h5>
+                            <div id="date">$</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
