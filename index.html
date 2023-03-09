@@ -13,7 +13,7 @@
 <body>
     <header>
         <h1>Amortization Calculator</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis pariatur incidunt impedit cum beatae ipsum. Atque illo sequi nostrum doloribus ut dolore, iste perspiciatis reprehenderit explicabo dolores fugiat ipsa numquam.</p>
+        <p>Amortization is paying off a debt over time in equal installments. Part of each payment goes toward the loan principal, and part goes toward interest. As the loan amortizes, the amount going toward principal starts out small, and gradually grows larger month by month. In an amortization schedule, you can see how much money you pay in principal and interest over time. Use this calculator to input the details of your loan and see how those payments break down over your loan term.</p>
     </header>
     <div class="bod">
         <div class="input_screen">
@@ -23,15 +23,15 @@
             </div>
             <div class="loan_term">
                 <h3>Loan Term</h3>
-                <input class="input" id="amount_input">
+                <input class="input" id="term_input">
             </div>
             <div class="loan_rate">
                 <h3>Interest Rate</h3>
-                <input class="input" id="amount_input">
+                <input class="input" id="rate_input">
             </div>
             <div class="loan_start">
                 <h3>Loan Start Date</h3>
-                <input class="input" id="amount_input">
+                <input class="input" id="date_input">
             </div>
             <div class="button">
                 <button>Calculate</button>
@@ -67,6 +67,8 @@
             </div>
         </div>
     </div>
-    <div id="test_display">display here</div>
+    <div id="amor_display">
+        <ul id="my_list">Amortization Schedule:</ul>
+    </div>
 </body>
 </html>
