@@ -3,11 +3,28 @@ document.querySelector('.button').addEventListener('click', calculate_amortizati
 
 function calculate_amortization() {
 
-    amount = document.querySelector('#amount_input').value;
-    term = document.querySelector('#term_input').value;
-    rate = document.querySelector('#rate_input').value;
-    date = document.querySelector('#date_input').value;
- 
+    let amount = document.querySelector('#amount_input').value;
+    let term = document.querySelector('#term_input').value;
+    let rate = document.querySelector('#rate_input').value;
+    let date = document.querySelector('#date_input').value;
+    console.log(date)
+
+    // let date_arr = date.split("-");
+    // let year = parseInt(date_arr[0]);
+    // let payoff_year = year + term;
+    // date_arr = date_arr.shift()
+    // let payoff_date = date_arr.unshift(payoff_year)
+    // console.log(date_arr)
+    // console.log(year)
+
+    
+    // console.log(date)
+
+
+    // console.log(payoff_date)
+   
+
+
     axios
         .get(`https://www.commercialloandirect.com/monthlyPaymentAPI.php?pv=${amount}&rate=${rate}&nperiod=${term}&io=0&pf=12&cf=1&pt=0&mode=json`)
         .then((response) => {
