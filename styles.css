@@ -93,10 +93,16 @@ header {
 }
 
 a {
-    color: white;
+    color: rgb(255, 68, 68);
 }
 
 .red_sign_container {
     display: flex;
     justify-content: center;
+}
+
+#headshot {
+    height: 60px;
+    width: 60px;
+    border-radius: 8px;
 }
