@@ -95,3 +95,8 @@ header {
 a {
     color: white;
 }
+
+.red_sign_container {
+    display: flex;
+    justify-content: center;
+}
