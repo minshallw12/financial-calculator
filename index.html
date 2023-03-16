@@ -12,12 +12,14 @@
 </head>
 <body>
     <nav><img src="images/Line 2.jpg"></nav>
-    <header>
-        <h1>Amortization Calculator</h1>
-        <p>Amortization is paying off a debt over time in equal installments. Part of each payment goes toward the loan principal, and part goes toward interest. As the loan amortizes, the amount going toward principal starts out small, and gradually grows larger month by month. In an amortization schedule, you can see how much money you pay in principal and interest over time. Use this calculator to input the details of your loan and see how those payments break down over your loan term.</p>
-    </header>
+    <div class="header_container">
+        <header class="bg_white">
+            <h1>Amortization Calculator</h1>
+            <p>Amortization is paying off a debt over time in equal installments. Part of each payment goes toward the loan principal, and part goes toward interest. As the loan amortizes, the amount going toward principal starts out small, and gradually grows larger month by month. In an amortization schedule, you can see how much money you pay in principal and interest over time. Use this calculator to input the details of your loan and see how those payments break down over your loan term.</p>
+        </header>
+    </div>
     <div class="bod">
-        <div class="input_screen">
+        <div class="input_screen bg_white">
             <div class="loan_amount">
                 <h3>Loan Amount</h3>
                 <input class="input" id="amount_input" placeholder="250,000">
@@ -38,15 +40,15 @@
                 <button>Calculate</button>
             </div>
         </div>
-        <div class="results_screen">
+        <div class="results_screen bg_white">
             <div>
                 <div class="summary_header">
                     <h3>Summary</h3>
                     <h4>Number of Payments:</h4><div id="number_of_payments"></div>
                 </div>
                 <hr>
-                <div class="summary">
-                    <div class="summary_box">
+                <div class="summary bg_white"> 
+                    <div class="summary_box bg_white">
                         <div class="monthly_payment">
                             <h5>Monthly Payment</h5>
                             <div id="payment">$</div>
@@ -68,11 +70,15 @@
             </div>
         </div>
     </div>
-    <div id="amor_display">
-        <ul id="my_list">Amortization Schedule:</ul>
+    <div class="header_container">
+        <div id="amor_display">
+            <ul id="my_list">Amortization Schedule:</ul>
+        </div>
     </div>
     <footer>
-        Copyright 2023 Will Minshall
+        <div>
+            Copyright 2023 Will Minshall | Browse property for sale<a href="https://mccallrealestate.com/">here</a>!
+        </div>
     </footer>
 </body>
 </html>

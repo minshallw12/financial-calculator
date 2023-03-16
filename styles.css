@@ -27,21 +27,28 @@ body {
 }
 
 header {
-    border: 2px dotted purple;
+    max-width: 745px;
+    padding: 3px;
+    border-radius: 8px;
 }
 
 .bod {
     border: 2px dotted blue;
     display: flex;
+    justify-content: center;
 }
+
 
 .input_screen {
-    border: 2px dotted orange;
+    border-radius: 8px;
+    padding: 3px;
 }
 
+
 .results_screen {
-    border: 2px dotted green;
-    width:550px
+    width:550px;
+    padding: 3px;
+    border-radius: 8px;
 }
 
 .summary_header {
@@ -49,7 +56,7 @@ header {
 }
 
 .summary {
-    border: 2px dotted black;
+    border: 2px solid black;
     display: flex;
     justify-content: column;
     align-items: center;
@@ -57,7 +64,6 @@ header {
 }
 
 .summary_box {
-    border: 2px dotted pink;
     display: flex;
     justify-content: space-evenly;
     height: 75px;
@@ -66,4 +72,26 @@ header {
 #test_display {
     border: 2px solid red;
     height: 120px;
+}
+
+.bg_white {
+    background-color: white;
+}
+
+.header_container {
+    display: flex;
+    justify-content: center;
+    border: 2px dotted red;
+}
+
+#amor_display {
+    display: flex;
+    border: 2px dotted white;
+    background-color: white;
+    width: 745px;
+    border-radius: 8px;
+}
+
+a {
+    color: white;
 }
